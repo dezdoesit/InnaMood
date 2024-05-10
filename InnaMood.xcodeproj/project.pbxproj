@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CFD808F2BEE9B1E00130021 /* InnaMoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */; };
+		4CFD80912BEE9B1E00130021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80902BEE9B1E00130021 /* ContentView.swift */; };
+		4CFD80932BEE9B2000130021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD80922BEE9B2000130021 /* Assets.xcassets */; };
+		4CFD80962BEE9B2000130021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD80952BEE9B2000130021 /* Preview Assets.xcassets */; };
+		4CFD80A02BEE9B2000130021 /* InnaMoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD809F2BEE9B2000130021 /* InnaMoodTests.swift */; };
+		4CFD80AA2BEE9B2000130021 /* InnaMoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80A92BEE9B2000130021 /* InnaMoodUITests.swift */; };
+		4CFD80AC2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80AB2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CFD809C2BEE9B2000130021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CFD80832BEE9B1E00130021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CFD808A2BEE9B1E00130021;
+			remoteInfo = InnaMood;
+		};
+		4CFD80A62BEE9B2000130021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CFD80832BEE9B1E00130021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CFD808A2BEE9B1E00130021;
+			remoteInfo = InnaMood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CFD808B2BEE9B1E00130021 /* InnaMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnaMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnaMoodApp.swift; sourceTree = "<group>"; };
+		4CFD80902BEE9B1E00130021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CFD80922BEE9B2000130021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CFD80952BEE9B2000130021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CFD809B2BEE9B2000130021 /* InnaMoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnaMoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFD809F2BEE9B2000130021 /* InnaMoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnaMoodTests.swift; sourceTree = "<group>"; };
+		4CFD80A52BEE9B2000130021 /* InnaMoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnaMoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFD80A92BEE9B2000130021 /* InnaMoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnaMoodUITests.swift; sourceTree = "<group>"; };
+		4CFD80AB2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnaMoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CFD80882BEE9B1E00130021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFD80982BEE9B2000130021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFD80A22BEE9B2000130021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CFD80822BEE9B1E00130021 = {
+			isa = PBXGroup;
+			children = (
+				4CFD808D2BEE9B1E00130021 /* InnaMood */,
+				4CFD809E2BEE9B2000130021 /* InnaMoodTests */,
+				4CFD80A82BEE9B2000130021 /* InnaMoodUITests */,
+				4CFD808C2BEE9B1E00130021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CFD808C2BEE9B1E00130021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD808B2BEE9B1E00130021 /* InnaMood.app */,
+				4CFD809B2BEE9B2000130021 /* InnaMoodTests.xctest */,
+				4CFD80A52BEE9B2000130021 /* InnaMoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFD808D2BEE9B1E00130021 /* InnaMood */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */,
+				4CFD80902BEE9B1E00130021 /* ContentView.swift */,
+				4CFD80922BEE9B2000130021 /* Assets.xcassets */,
+				4CFD80942BEE9B2000130021 /* Preview Content */,
+			);
+			path = InnaMood;
+			sourceTree = "<group>";
+		};
+		4CFD80942BEE9B2000130021 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD80952BEE9B2000130021 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CFD809E2BEE9B2000130021 /* InnaMoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD809F2BEE9B2000130021 /* InnaMoodTests.swift */,
+			);
+			path = InnaMoodTests;
+			sourceTree = "<group>";
+		};
+		4CFD80A82BEE9B2000130021 /* InnaMoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD80A92BEE9B2000130021 /* InnaMoodUITests.swift */,
+				4CFD80AB2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift */,
+			);
+			path = InnaMoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CFD808A2BEE9B1E00130021 /* InnaMood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFD80AF2BEE9B2000130021 /* Build configuration list for PBXNativeTarget "InnaMood" */;
+			buildPhases = (
+				4CFD80872BEE9B1E00130021 /* Sources */,
+				4CFD80882BEE9B1E00130021 /* Frameworks */,
+				4CFD80892BEE9B1E00130021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnaMood;
+			productName = InnaMood;
+			productReference = 4CFD808B2BEE9B1E00130021 /* InnaMood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CFD809A2BEE9B2000130021 /* InnaMoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFD80B22BEE9B2000130021 /* Build configuration list for PBXNativeTarget "InnaMoodTests" */;
+			buildPhases = (
+				4CFD80972BEE9B2000130021 /* Sources */,
+				4CFD80982BEE9B2000130021 /* Frameworks */,
+				4CFD80992BEE9B2000130021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CFD809D2BEE9B2000130021 /* PBXTargetDependency */,
+			);
+			name = InnaMoodTests;
+			productName = InnaMoodTests;
+			productReference = 4CFD809B2BEE9B2000130021 /* InnaMoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CFD80A42BEE9B2000130021 /* InnaMoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFD80B52BEE9B2000130021 /* Build configuration list for PBXNativeTarget "InnaMoodUITests" */;
+			buildPhases = (
+				4CFD80A12BEE9B2000130021 /* Sources */,
+				4CFD80A22BEE9B2000130021 /* Frameworks */,
+				4CFD80A32BEE9B2000130021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CFD80A72BEE9B2000130021 /* PBXTargetDependency */,
+			);
+			name = InnaMoodUITests;
+			productName = InnaMoodUITests;
+			productReference = 4CFD80A52BEE9B2000130021 /* InnaMoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CFD80832BEE9B1E00130021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4CFD808A2BEE9B1E00130021 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4CFD809A2BEE9B2000130021 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4CFD808A2BEE9B1E00130021;
+					};
+					4CFD80A42BEE9B2000130021 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4CFD808A2BEE9B1E00130021;
+					};
+				};
+			};
+			buildConfigurationList = 4CFD80862BEE9B1E00130021 /* Build configuration list for PBXProject "InnaMood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CFD80822BEE9B1E00130021;
+			productRefGroup = 4CFD808C2BEE9B1E00130021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CFD808A2BEE9B1E00130021 /* InnaMood */,
+				4CFD809A2BEE9B2000130021 /* InnaMoodTests */,
+				4CFD80A42BEE9B2000130021 /* InnaMoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CFD80892BEE9B1E00130021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFD80962BEE9B2000130021 /* Preview Assets.xcassets in Resources */,
+				4CFD80932BEE9B2000130021 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFD80992BEE9B2000130021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFD80A32BEE9B2000130021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CFD80872BEE9B1E00130021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFD80912BEE9B1E00130021 /* ContentView.swift in Sources */,
+				4CFD808F2BEE9B1E00130021 /* InnaMoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFD80972BEE9B2000130021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFD80A02BEE9B2000130021 /* InnaMoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFD80A12BEE9B2000130021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFD80AC2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift in Sources */,
+				4CFD80AA2BEE9B2000130021 /* InnaMoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CFD809D2BEE9B2000130021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CFD808A2BEE9B1E00130021 /* InnaMood */;
+			targetProxy = 4CFD809C2BEE9B2000130021 /* PBXContainerItemProxy */;
+		};
+		4CFD80A72BEE9B2000130021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CFD808A2BEE9B1E00130021 /* InnaMood */;
+			targetProxy = 4CFD80A62BEE9B2000130021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CFD80AD2BEE9B2000130021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CFD80AE2BEE9B2000130021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CFD80B02BEE9B2000130021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InnaMood/Preview Content\"";
+				DEVELOPMENT_TEAM = ZB5WA6672J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dezblair.appledeveloperacademy.InnaMood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CFD80B12BEE9B2000130021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InnaMood/Preview Content\"";
+				DEVELOPMENT_TEAM = ZB5WA6672J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dezblair.appledeveloperacademy.InnaMood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CFD80B32BEE9B2000130021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB5WA6672J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dezblair.appledeveloperacademy.InnaMoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnaMood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InnaMood";
+			};
+			name = Debug;
+		};
+		4CFD80B42BEE9B2000130021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB5WA6672J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dezblair.appledeveloperacademy.InnaMoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnaMood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InnaMood";
+			};
+			name = Release;
+		};
+		4CFD80B62BEE9B2000130021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB5WA6672J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dezblair.appledeveloperacademy.InnaMoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InnaMood;
+			};
+			name = Debug;
+		};
+		4CFD80B72BEE9B2000130021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZB5WA6672J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dezblair.appledeveloperacademy.InnaMoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InnaMood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CFD80862BEE9B1E00130021 /* Build configuration list for PBXProject "InnaMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFD80AD2BEE9B2000130021 /* Debug */,
+				4CFD80AE2BEE9B2000130021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFD80AF2BEE9B2000130021 /* Build configuration list for PBXNativeTarget "InnaMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFD80B02BEE9B2000130021 /* Debug */,
+				4CFD80B12BEE9B2000130021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFD80B22BEE9B2000130021 /* Build configuration list for PBXNativeTarget "InnaMoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFD80B32BEE9B2000130021 /* Debug */,
+				4CFD80B42BEE9B2000130021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFD80B52BEE9B2000130021 /* Build configuration list for PBXNativeTarget "InnaMoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFD80B62BEE9B2000130021 /* Debug */,
+				4CFD80B72BEE9B2000130021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CFD80832BEE9B1E00130021 /* Project object */;
+}
