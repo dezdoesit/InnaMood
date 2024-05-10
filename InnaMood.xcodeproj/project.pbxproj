@@ -94,8 +94,9 @@
 		4CFD808D2BEE9B1E00130021 /* InnaMood */ = {
 			isa = PBXGroup;
 			children = (
-				4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */,
-				4CFD80902BEE9B1E00130021 /* ContentView.swift */,
+				4CFD80BA2BEE9B3D00130021 /* App */,
+				4CFD80B92BEE9B3300130021 /* Models */,
+				4CFD80B82BEE9B2B00130021 /* Views */,
 				4CFD80922BEE9B2000130021 /* Assets.xcassets */,
 				4CFD80942BEE9B2000130021 /* Preview Content */,
 			);
@@ -125,6 +126,29 @@
 				4CFD80AB2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift */,
 			);
 			path = InnaMoodUITests;
+			sourceTree = "<group>";
+		};
+		4CFD80B82BEE9B2B00130021 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD80902BEE9B1E00130021 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CFD80B92BEE9B3300130021 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CFD80BA2BEE9B3D00130021 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
