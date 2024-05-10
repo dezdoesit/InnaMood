@@ -14,6 +14,9 @@
 		4CFD80A02BEE9B2000130021 /* InnaMoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD809F2BEE9B2000130021 /* InnaMoodTests.swift */; };
 		4CFD80AA2BEE9B2000130021 /* InnaMoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80A92BEE9B2000130021 /* InnaMoodUITests.swift */; };
 		4CFD80AC2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80AB2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift */; };
+		4CFD80BC2BEE9BF800130021 /* JournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80BB2BEE9BF800130021 /* JournalModel.swift */; };
+		4CFD80BE2BEEA32600130021 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80BD2BEEA32600130021 /* MoodView.swift */; };
+		4CFD80C02BEEB9E100130021 /* DynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80BF2BEEB9E100130021 /* DynamicType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		4CFD80A52BEE9B2000130021 /* InnaMoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnaMoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFD80A92BEE9B2000130021 /* InnaMoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnaMoodUITests.swift; sourceTree = "<group>"; };
 		4CFD80AB2BEE9B2000130021 /* InnaMoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnaMoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CFD80BB2BEE9BF800130021 /* JournalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModel.swift; sourceTree = "<group>"; };
+		4CFD80BD2BEEA32600130021 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		4CFD80BF2BEEB9E100130021 /* DynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				4CFD80902BEE9B1E00130021 /* ContentView.swift */,
+				4CFD80BD2BEEA32600130021 /* MoodView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 		4CFD80B92BEE9B3300130021 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4CFD80BB2BEE9BF800130021 /* JournalModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */,
+				4CFD80BF2BEEB9E100130021 /* DynamicType.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -281,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFD80BC2BEE9BF800130021 /* JournalModel.swift in Sources */,
 				4CFD80912BEE9B1E00130021 /* ContentView.swift in Sources */,
+				4CFD80C02BEEB9E100130021 /* DynamicType.swift in Sources */,
 				4CFD808F2BEE9B1E00130021 /* InnaMoodApp.swift in Sources */,
+				4CFD80BE2BEEA32600130021 /* MoodView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
