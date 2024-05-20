@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3F3E9A2BF442BA0085AAF6 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F3E992BF442BA0085AAF6 /* PromptView.swift */; };
+		4C3F3E9C2BF69CA70085AAF6 /* JounalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F3E9B2BF69CA70085AAF6 /* JounalRowView.swift */; };
 		4CFD808F2BEE9B1E00130021 /* InnaMoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */; };
 		4CFD80912BEE9B1E00130021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD80902BEE9B1E00130021 /* ContentView.swift */; };
 		4CFD80932BEE9B2000130021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD80922BEE9B2000130021 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3F3E992BF442BA0085AAF6 /* PromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
+		4C3F3E9B2BF69CA70085AAF6 /* JounalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JounalRowView.swift; sourceTree = "<group>"; };
 		4CFD808B2BEE9B1E00130021 /* InnaMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnaMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFD808E2BEE9B1E00130021 /* InnaMoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnaMoodApp.swift; sourceTree = "<group>"; };
 		4CFD80902BEE9B1E00130021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 			children = (
 				4CFD80902BEE9B1E00130021 /* ContentView.swift */,
 				4CFD80BD2BEEA32600130021 /* MoodView.swift */,
+				4C3F3E992BF442BA0085AAF6 /* PromptView.swift */,
+				4C3F3E9B2BF69CA70085AAF6 /* JounalRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,7 +300,9 @@
 				4CFD80912BEE9B1E00130021 /* ContentView.swift in Sources */,
 				4CFD80C02BEEB9E100130021 /* DynamicType.swift in Sources */,
 				4CFD808F2BEE9B1E00130021 /* InnaMoodApp.swift in Sources */,
+				4C3F3E9A2BF442BA0085AAF6 /* PromptView.swift in Sources */,
 				4CFD80BE2BEEA32600130021 /* MoodView.swift in Sources */,
+				4C3F3E9C2BF69CA70085AAF6 /* JounalRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
